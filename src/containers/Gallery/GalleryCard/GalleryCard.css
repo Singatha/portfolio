@@ -1,0 +1,39 @@
+.gallery-card {
+    margin-bottom: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    grid-gap: 50px;
+}
+.ui.card {
+    width: unset;
+}
+
+.header {
+    font-family: monospace;
+    text-align: center;
+}
+
+.card-link {
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    padding: 10px;
+    color: #6C718A;
+}
+
+.gallery-card-home-link {
+    color: white;
+    display: block;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}

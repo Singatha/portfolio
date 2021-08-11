@@ -1,0 +1,32 @@
+.ui.image {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.gallery-detail-link {
+    color: #2B3355;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.gallery-detail-home-link {
+    color: white;
+    display: block;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}

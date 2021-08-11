@@ -1,0 +1,25 @@
+#contact {
+    background-color: #72768F;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-link {
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.contact-text {
+    display: inline;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}

@@ -1,0 +1,21 @@
+#home {
+    background-color: #2B3355;
+    padding-top: 30px;
+    padding-bottom: 500px;
+
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.headline {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
