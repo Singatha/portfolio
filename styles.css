@@ -486,6 +486,22 @@ h1 span:last-of-type::after {
   opacity: 0.12;
 }
 
+.project-preview-image {
+  padding: 0;
+  background: var(--white);
+}
+
+.project-preview-image::after {
+  display: none;
+}
+
+.project-preview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left top;
+}
+
 .project-preview-number {
   position: relative;
   z-index: 1;
