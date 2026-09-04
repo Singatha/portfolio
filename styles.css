@@ -433,7 +433,7 @@ h1 span:last-of-type::after {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22px;
 }
 
@@ -451,10 +451,6 @@ h1 span:last-of-type::after {
 
 .project-card-parkwise {
   --project-accent: var(--orange);
-}
-
-.project-card-gardenwise {
-  --project-accent: var(--sky);
 }
 
 .project-preview {
@@ -502,61 +498,12 @@ h1 span:last-of-type::after {
   object-position: left top;
 }
 
-.project-preview-number {
-  position: relative;
-  z-index: 1;
-  grid-column: 1 / -1;
-  font-family: "Arial", "Helvetica Neue", sans-serif;
-  font-size: clamp(4rem, 7vw, 6.7rem);
-  font-weight: 900;
-  line-height: 0.75;
-  letter-spacing: -0.09em;
-}
-
-.project-preview-copy {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  align-self: end;
-  gap: 5px;
-}
-
-.project-preview-copy strong {
-  font-size: 1rem;
-  line-height: 1;
-}
-
-.project-preview-copy span,
 .project-type {
   font-family: "Courier New", monospace;
   font-size: 0.68rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-}
-
-.project-preview-signal {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  gap: 5px;
-  align-items: end;
-  align-self: end;
-}
-
-.project-preview-signal i {
-  display: block;
-  width: 8px;
-  height: 25px;
-  background: var(--ink);
-}
-
-.project-preview-signal i:nth-child(2) {
-  height: 42px;
-}
-
-.project-preview-signal i:nth-child(3) {
-  height: 62px;
 }
 
 .project-card-body {
